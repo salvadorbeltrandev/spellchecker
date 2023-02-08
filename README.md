@@ -14,12 +14,6 @@ Installation
 
 Start the application by running npm start or npm dev if you are constantly debugging.
 
-Endpoints
-- GET /api/spellcheck/{word}: Example endpoint to get suggestions from the dictionary.
-
-Test
-- To test the endpoints, you can use a tool such as Postman.
-
 Docker locally
 docker build -t spellchecker .
 docker run --name spellchecker -p 5000:5000 -d spellchecker
